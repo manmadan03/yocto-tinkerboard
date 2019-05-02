@@ -3,7 +3,7 @@
 
 require recipes-kernel/linux/linux-yocto.inc
 
-SRC_URI = "git://github.com/rockchip-linux/kernel.git;branch=release-20160818-miniarm;"
+SRC_URI = "git://github.com/rockchip-linux/kernel.git;branch=release-4.4;"
 
 SRCREV = "${AUTOREV}"
 LINUX_VERSION = "4.4.16"
